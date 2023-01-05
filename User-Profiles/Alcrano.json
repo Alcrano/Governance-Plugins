@@ -2,26 +2,34 @@
     "type": "User Profile",
     "name": "Alcrano",
     "project": "Governance",
-    "id": "efa172ba-5d04-43ed-9506-ff40383f3ec3",
+    "id": "e0ba7f5c-097e-431d-9e07-1f6f380cd2ec",
+    "config": "{\"codeName\":\"Alcrano\",\"signature\":\"0xd3d12b9557dbacbf6e3208b6356447605dd03704c0eec91b16ca27f90327da905c2a765b87e1ef95e9e09149a2d4e3a1321b0364baf50abce8095c0135f8fb1f1c\"}",
     "userApps": {
         "type": "User Apps",
         "name": "New User Apps",
         "project": "User-Apps",
-        "id": "6e64ac18-142b-4da7-bdbd-85b0051b4978",
+        "id": "134319d2-89c1-49d8-ae0d-9ce6165180a8",
         "config": "{}",
         "desktopApps": {
             "type": "Desktop Apps",
             "name": "New Desktop Apps",
             "project": "User-Apps",
-            "id": "3e839342-3fc0-4e2e-a53a-911355d758b7",
+            "id": "ffebe8d4-e0aa-4b50-94e9-1272c891f200",
             "config": "{}",
             "socialTradingDesktopApps": [
                 {
                     "type": "Social Trading Desktop App",
-                    "name": "New Social Trading Desktop App",
+                    "name": "Social Trading Desktop App #1",
                     "project": "User-Apps",
-                    "id": "5e171819-79a8-4f89-9e58-a98a223d8c78",
-                    "config": "{}"
+                    "id": "53a4fac4-f18d-4414-b448-fa080514bdf4",
+                    "config": "{\n    \"codeName\": \"Social-Trading-Desktop-App-1\"\n}",
+                    "signingAccount": {
+                        "type": "Signing Account",
+                        "name": "New Signing Account",
+                        "project": "Governance",
+                        "id": "f5b09b9e-2f3a-4a39-9c4c-37aa8bbbacd4",
+                        "config": "{\"codeName\":\"Social-Trading-Desktop-App-1\",\"signature\":{\"message\":\"Alcrano\",\"messageHash\":\"0x44b8e61bab2d30dcb8de21fc17ab114a783a0abf8ac33a9ed35b82f3937658ae\",\"v\":\"0x1b\",\"r\":\"0x54e322f4921a106be6a02bb5c97a2da3a55b33c2ff4151fabacace0f9fbec6a9\",\"s\":\"0x7fb6853b9749aea654479b5056f5b307e00cc8c28c77dce7cbb14ebd8694ab65\",\"signature\":\"0x54e322f4921a106be6a02bb5c97a2da3a55b33c2ff4151fabacace0f9fbec6a97fb6853b9749aea654479b5056f5b307e00cc8c28c77dce7cbb14ebd8694ab651b\"}}"
+                    }
                 }
             ]
         }
